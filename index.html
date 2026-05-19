@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Veterinário São Chico | Brooklin, SP</title>
+    <meta name="description" content="Cuidado veterinário sem pressa, com mais de 26 anos de dedicação no Brooklin. Atendimento veterinário clínico completo para cães e gatos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="Centro Veterinário São Chico">
+                <img src="assets/logo-saofran.svg" alt="Centro Veterinário São Chico" class="logo-img">
+            </a>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#cuidados" class="nav-link">Cuidados</a></li>
+                    <li><a href="#dr-gustavo" class="nav-link">Dr. Gustavo</a></li>
+                    <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <a href="https://wa.me/5511969028841" class="btn btn-primary" target="_blank">Agendar consulta</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Cuidado verdadeiro para quem faz parte da sua família.</h1>
+                    <p class="hero-text">Aqui na São Chico, a consulta tem o tempo que o seu pet precisa. Acreditamos na escuta atenta, em diagnósticos precisos e em conversas transparentes. Porque sabemos que, para você, ele não é só um bichinho — é parte da família.</p>
+                    <div class="hero-ctas">
+                        <a href="https://wa.me/5511969028841" class="btn btn-primary" target="_blank">Agende uma consulta</a>
+                        <a href="#dr-gustavo" class="btn btn-outline">Conheça o Dr. Gustavo</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="visual-composition">
+                        <div class="hex-image hex-large">
+                            <img src="assets/hero-main.jpg" alt="Veterinário examinando um cachorro com cuidado">
+                        </div>
+                        <div class="hex-image hex-small">
+                            <img src="assets/hero-small.jpg" alt="Gato sendo examinado">
+                        </div>
+                        <div class="connector-line line-1"></div>
+                        <div class="connector-line line-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="manifesto" class="manifesto">
+            <div class="container manifesto-container">
+                <h2 class="manifesto-text">
+                    "Na São Chico, o cuidado começa antes do diagnóstico: começa na escuta, no <em>tempo dedicado</em> e na <em>atenção aos detalhes</em> de cada animal."
+                </h2>
+                
+                <div class="manifesto-card">
+                    <h3 class="card-title">Filosofia de cuidado</h3>
+                    <p>Consultas sem pressa, conversas francas e um acompanhamento próximo são o nosso padrão diário. Aqui, o acolhimento não é um 'diferencial', é a única forma que sabemos trabalhar.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cuidados" class="services">
+            <div class="container">
+                <div class="services-header">
+                    <h2 class="section-title">Tudo o que seu melhor amigo precisa, em um só lugar.</h2>
+                    <p class="section-text">Da primeira vacina aos cuidados da idade avançada. Oferecemos suporte completo com a tranquilidade e a estrutura que o seu pet merece.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/icons/consultas.png" alt="Consultas veterinárias">
+                        </div>
+                        <h3>Consultas veterinárias</h3>
+                        <p>Avaliações completas e sem correria. Ouvimos o histórico do seu pet com toda a atenção para entender o que ele realmente sente.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/icons/vacinacao.png" alt="Vacinação">
+                        </div>
+                        <h3>Vacinação</h3>
+                        <p>Proteção sob medida. Criamos protocolos de vacinação seguros e alinhados ao estilo de vida do seu cão ou gato.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/icons/cirurgias.png" alt="Cirurgias">
+                        </div>
+                        <h3>Cirurgias</h3>
+                        <p>Tranquilidade quando você mais precisa. Realizamos procedimentos com anestesia segura, monitoramento constante e muito carinho no pós-operatório.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/icons/procedimento dentario.png" alt="Procedimentos dentários">
+                        </div>
+                        <h3>Procedimentos dentários</h3>
+                        <p>Saúde que começa pela boca. Prevenção e tratamento especial para garantir que seu pet viva sem dor e com qualidade de vida.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/icons/acompanhamento.png" alt="Acompanhamento contínuo">
+                        </div>
+                        <h3>Acompanhamento contínuo</h3>
+                        <p>Ao lado do seu pet, passo a passo. Acompanhamos cada fase da vida dele para focar no que mais importa: o bem-estar diário.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="diferenciais" class="differentials">
+            <div class="container">
+                <h2 class="section-title light-text">Uma jornada mais calma, cuidadosa e próxima.</h2>
+                
+                <div class="journey-container">
+                    <div class="journey-line"></div>
+                    
+                    <div class="journey-step">
+                        <div class="step-number">1</div>
+                        <div class="step-card">
+                            <h3>Tempo dedicado</h3>
+                            <p>Aqui respeitamos o ritmo e o conforto do seu pet, garantindo uma consulta livre de estresse.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-step">
+                        <div class="step-number">2</div>
+                        <div class="step-card">
+                            <h3>Experiência clínica</h3>
+                            <p>Mais de duas décadas de dedicação no Brooklin. Uma bagagem que se traduz em diagnósticos certeiros e decisões seguras.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-step">
+                        <div class="step-number">3</div>
+                        <div class="step-card">
+                            <h3>Proximidade real</h3>
+                            <p>Esqueça o atendimento impessoal. Nós conhecemos nossos pacientes pelo nome e construímos laços de confiança verdadeiros com cada família.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="journey-step">
+                        <div class="step-number">4</div>
+                        <div class="step-card">
+                            <h3>Transparência sempre</h3>
+                            <p>Nada de termos técnicos complicados. Conversamos abertamente sobre exames, diagnósticos e os melhores caminhos para o tratamento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dr-gustavo" class="doctor">
+            <div class="container doctor-container">
+                <div class="doctor-image hex-image">
+                    <img src="assets/dr-gustavo.jpg" alt="Dr. Gustavo Machado">
+                </div>
+                <div class="doctor-content">
+                    <h2 class="doctor-name">Dr. Gustavo Machado</h2>
+                    <span class="doctor-crmv">CRMV 12411/SP</span>
+                    <p class="doctor-bio">Há mais de 26 anos, o Dr. Gustavo transformou sua paixão pelos animais em um espaço onde o cuidado fala mais alto. Conhecido no Brooklin pelo carinho e pela paciência, ele é o tipo de veterinário que senta para ouvir, examina com calma e cuida do seu pet como se fosse dele.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="experience">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item large">
+                        <img src="assets/gallery-1.jpg" alt="Recepção da clínica veterinária São Chico">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery-consultorio.png" alt="Sala de atendimento (Consultório)">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery-3.png" alt="Equipamentos clínicos">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="testimonial">
+            <div class="container">
+                <h2 class="section-title light-text text-center" style="margin-bottom: 3rem;">O que dizem sobre nós</h2>
+                <div class="testimonial-carousel">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/Mike.jpg" alt="Mike" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Mike</h3>
+                                <p class="owner-name">Tutor(a): Dábora Dalmolin</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"O Dr. Gustavo parece um encantador de cães. Além de escutar, examinar com muita atenção, ele explica tudo de uma forma simples."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/Mia.jpg" alt="Mia" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Mia</h3>
+                                <p class="owner-name">Tutor(a): Paula Nunes </p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Sempre fico impressionada com o carinho no atendimento. A Mia era muito medrosa, mas com o Dr Gustavo ela fica tranquila."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/Amora.jpg" alt="Amora" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Amora</h3>
+                                <p class="owner-name">Tutor(a): Carol Laganá</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"O Dr Gustavo cuida da Amorinha há 13 anos. Ele cuidou dela desde a castração até consultas rotineiras. Não conheço nenhum profissional como ele."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/Titi.jpg" alt="Titi" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Titi</h3>
+                                <p class="owner-name">Tutor(a): Renata Pazos</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Atenção aos mínimos detalhes. Descobriram o problema da Titi rapidinho após várias tentativas frustradas em outros lugares."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/hero-main.jpg" alt="Zeus" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Zeus</h3>
+                                <p class="owner-name">Tutor(a): Paulo Henrique</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Excelente estrutura e um médico que realmente ama o que faz. O Zeus adora as consultas de rotina!"</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/hero-main.jpg" alt="Zeus" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Zeus</h3>
+                                <p class="owner-name">Tutor(a): Paulo Henrique</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"A estrutura é ótima, mas o que faz a diferença é o amor que eles têm pelo que fazem. O Zeus vai todo feliz pra lá!"</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/hero-main.jpg" alt="Amora" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Mel</h3>
+                                <p class="owner-name">Tutor(a): Juliana Freitas</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Um carinho de outro mundo. Dá pra ver de longe que eles se importam de verdade com a saúde da nossa Mel a longo prazo."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/hero-small.jpg" alt="Simba" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Simba</h3>
+                                <p class="owner-name">Tutor(a): Roberto Alves</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Achei o lugar certo no Brooklin. O Simba sempre volta super tranquilo pra casa, sem aquele trauma de ir ao veterinário."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/hero-main.jpg" alt="Nina" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Nina</h3>
+                                <p class="owner-name">Tutor(a): Camila Rocha</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Sempre que me bate uma dúvida, chamo eles e a resposta é rápida e super clara. A Nina tá ótima graças a esse acompanhamento."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/hero-main.jpg" alt="Max" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Max</h3>
+                                <p class="owner-name">Tutor(a): André Lima</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Eu indico pra todo mundo! Quando você acha um veterinário que não olha pro relógio durante a consulta, não larga mais."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="assets/hero-small.jpg" alt="Bolinha" class="pet-avatar">
+                            <div class="testimonial-meta">
+                                <h3 class="pet-name">Bolinha</h3>
+                                <p class="owner-name">Tutor(a): Tatiana Borges</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Foi um alívio gigante. O Bolinha sempre tremia pra ir ao vet, mas o jeito como o Dr. Gustavo lidou com ele mudou tudo!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2 class="section-title">Dúvidas Frequentes</h2>
+                
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            A clínica atende emergências 24 horas?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Não funcionamos como hospital 24h. Nosso foco é na clínica preventiva e curativa com hora marcada, para que cada pet tenha o tempo e a paz que merece. Se houver alguma emergência de madrugada, indicamos os melhores hospitais parceiros da região.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            Quais animais são atendidos?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Somos apaixonados e especialistas no atendimento de cães e gatos.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            A clínica oferece banho e tosa?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Não. Aqui a dedicação é 100% voltada para a saúde e bem-estar clínico do seu pet. Deixamos a parte de estética para os salões parceiros.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            Preciso agendar consulta?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Sim! Para garantir aquela nossa marca registrada de "cuidado sem pressa", funcionamos com hora marcada. É só mandar um "Oi" no WhatsApp que ajeitamos a agenda para você.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            O atendimento é sempre com o Dr. Gustavo?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Isso mesmo. O Dr. Gustavo é quem atende e cuida de cada detalhe. Assim, ele sabe de cor todo o histórico de saúde do seu pet, criando um vínculo real.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            Qual é o horário de funcionamento?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Nossas portas estão abertas de segunda a sexta, das 09h às 18h.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-final">
+            <div class="container cta-container">
+                <h2>Pronto para oferecer ao seu pet um cuidado de verdade, sem pressa?</h2>
+                <a href="https://wa.me/5511969028841" class="btn btn-primary btn-large" target="_blank">Agendar pelo WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo" aria-label="Centro Veterinário São Chico">
+                    <span class="logo-mark" aria-hidden="true"></span>
+                    <span>Centro Veterinário São Chico</span>
+                </a>
+                <p>A clínica de bairro que cuida do seu pet como parte da família há mais de 26 anos.</p>
+            </div>
+            
+            <div class="footer-info">
+                <h3>Contato e Endereço</h3>
+                <address>
+                    <p>Av. Padre Antônio José dos Santos, 1039</p>
+                    <p>Cidade Monções, São Paulo — SP</p>
+                    <p>CEP 04563-013</p>
+                </address>
+                <div class="footer-contacts">
+                    <a href="https://wa.me/5511969028841" target="_blank">WhatsApp: (11) 96902-8841</a>
+                    <a href="mailto:contato@vetsaochico.com.br">contato@vetsaochico.com.br</a>
+                    <p>CRMV-SP 12411</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Centro Veterinário São Chico. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
