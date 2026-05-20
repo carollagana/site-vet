@@ -291,17 +291,12 @@ img {
     z-index: 2;
 }
 
-.badge {
-    display: inline-block;
-    padding: 0.4rem 1rem;
-    border-radius: 50px;
-    background-color: rgba(218, 222, 216, 0.15);
-    color: var(--clr-cream);
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(218, 222, 216, 0.3);
+/* badge removed – no longer needed */
+.badge { display: none; }
+
+.hero-ctas {
+    display: flex;
+    gap: 1rem;
 }
 
 .hero-title {
@@ -316,11 +311,6 @@ img {
     color: var(--clr-aloe);
     margin-bottom: 2.5rem;
     max-width: 90%;
-}
-
-.hero-ctas {
-    display: flex;
-    gap: 1rem;
 }
 
 .hero-visual {
@@ -873,6 +863,14 @@ img {
 }
 
 @media (max-width: 768px) {
+    .header {
+        padding: 0.75rem 0;
+    }
+
+    .header.scrolled {
+        padding: 0.5rem 0;
+    }
+
     .header-right .btn {
         display: none;
     }
@@ -880,14 +878,27 @@ img {
     .header-container {
         position: relative;
         justify-content: flex-end;
-        min-height: 80px; /* Garante espaço para a logo no mobile */
+        min-height: 80px;
     }
     
+    /* Reposition logo to top left on mobile */
     .logo {
         position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        left: 1rem;
+        top: 0.8rem;
+        transform: none;
+    }
+
+    .logo-img {
+        height: 72px;
+    }
+
+    .header.scrolled .logo-img {
+        height: 62px;
+    }
+
+    .header.scrolled .header-container {
+        min-height: 62px;
     }
     
     .menu-toggle {
@@ -933,11 +944,32 @@ img {
         color: var(--clr-teal-deep);
         font-size: 1.2rem;
     }
+
+    .hero {
+        min-height: auto;
+        padding: 120px 0 3rem;
+        align-items: flex-start;
+    }
+
+    .hero-container {
+        gap: 2.5rem;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
     
     .hero-title {
         font-size: 2.5rem;
     }
     
+    /* Add spacing to avoid overlap of hero text with the image on very small screens */
+    @media (max-width: 480px) {
+        .hero-content {
+            margin-top: 140px; /* space for header and logo */
+        }
+    }
+
     .hero-visual {
         height: 400px;
     }
@@ -985,17 +1017,22 @@ img {
     .logo-img {
         height: 110px;
     }
-    
+
+    /* keep enough space for logo on mobile */
     .header-container {
-        min-height: 110px;
+        min-height: 120px;
     }
 
     .header.scrolled .logo-img {
         height: 80px;
     }
-    
+
     .header.scrolled .header-container {
-        min-height: 80px;
+        min-height: 90px;
+    }
+    
+    .hero {
+        padding-top: 112px;
     }
     
     .hero-title {
